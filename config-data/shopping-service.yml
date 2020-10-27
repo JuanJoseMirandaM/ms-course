@@ -41,7 +41,7 @@ eureka:
       defaultZone: http://localhost:8099/eureka/
 Feign:
   hystrix:
-    enable: true
+    enabled: true
 management:
   endpoints:
     web:
