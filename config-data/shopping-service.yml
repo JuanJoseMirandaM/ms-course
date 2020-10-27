@@ -42,10 +42,9 @@ eureka:
 Feign:
   hystrix:
     enabled: true
-    dashboard:
-      proxy-stream-allow-list: "*"
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+      base-path: "/"
